@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Partage de messages secret</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="messageForm">
+			<p id="encodedMessage"></p>
+			<input
+				type="text"
+				id="userMessage"
+				placeholder="Tapez votre message secret ici..."
+			/>
+			<button id="encodeAndShare">Encoder et Partager</button>
+		</div>
+
+		<div id="shareUrlContainer">
+			<input type="text" id="shareUrl" readonly />
+			<button id="copyUrl">Copier</button>
+			<button id="createNew">Create your own message</button>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
